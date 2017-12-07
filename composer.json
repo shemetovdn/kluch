@@ -1,0 +1,45 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-app-advanced": "*",
+    "yiisoft/yii2-jui": "*",
+    "yiisoft/yii2-debug": "*",
+    "mihaildev/yii2-ckeditor": "*",
+    "mihaildev/yii2-elfinder": "*",
+    "cebe/markdown": "*",
+    "linslin/yii2-curl": "*",
+    "nickcv/yii2-encrypter": "*",
+    "nodge/yii2-eauth": "*",
+    "uniqby/yii2-phone-formatter": "*",
+    "kartik-v/dependent-dropdown": "*",
+    "kartik-v/yii2-widget-alert": "*",
+    "kartik-v/yii2-widget-growl": "*",
+    "kartik-v/yii2-widget-select2": "*",
+    "kartik-v/yii2-widget-depdrop": "*",
+    "kartik-v/yii2-tabs-x": "*",
+    "yiidoc/yii2-jwplayer": "*",
+    "himiklab/yii2-recaptcha-widget": "*",
+    "philippfrenzel/yii2masonry": "*",
+    "bupy7/yii2-widget-cropbox": "*",
+    "cics/yii2-video-embed-widget": "*",
+    "himiklab/yii2-sitemap-module": "*",
+    "skeeks/yii2-assets-auto-compress": "*",
+    "codemix/yii2-localeurls": "*",
+    "2amigos/yii2-google-maps-library": "1.0.2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;uBACwB;EACvB,gBAAgB,EAAE,KAAK;;AAKxB,gBAAiB;EAChB,gBAAgB,EAAE,KAAK;;AAGxB;qCACsC;EACrC,aAAa,EAAE,CAAC;EAChB,OAAO,EAAE,CAAC;EAEV;iDAAY;IACX,aAAa,EAAE,IAAI",
+"sources": ["fixedColumns.dataTables.scss"],
+"names": [],
+"file": "fixedColumns.dataTables.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,6CAA8C;EAC7C,YAAY,EAAE,IAAI;;AAGnB,8CAA+C;EAC9C,WAAW,EAAE,IAAI;;AAKlB,gBAAiB;EAChB,gBAAgB,EAAE,KAAK;;AAGxB;qCACsC;EACrC,OAAO,EAAE,CAAC",
+"sources": ["fixedColumns.semanticui.scss"],
+"names": [],
+"file": "fixedColumns.semanticui.css"
+}

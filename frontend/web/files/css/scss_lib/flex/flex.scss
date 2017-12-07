@@ -1,0 +1,9 @@
+@mixin flex($s){
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: $s;
+  -webkit-align-items: $s;
+  -webkit-box-align: $s;
+  align-items: $s;
+}

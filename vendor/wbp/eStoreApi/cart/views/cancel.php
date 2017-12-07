@@ -1,0 +1,1 @@
+<center>Your order is canceled.</center>

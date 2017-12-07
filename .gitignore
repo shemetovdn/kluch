@@ -1,0 +1,59 @@
+# yii console command
+/yii
+data.json
+# phpstorm project files
+.idea
+.idea/*
+
+_project_info/
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+#/vendor
+
+images/tmp/*
+images/source/*
+images/cache/*
+
+# composer itself is not needed
+composer.phar
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+runtime/*
+runtime/logs/*
+/frontend/runtime/*
+/frontend/web/error_log
+/backend/web/error_log
+/mobile/runtime/*
+/shop/runtime/*
+
+secure
+
+stats
+
+common/config/main-local.php
+
+images/1
+access.log
+error.log
+adm/
+uploads/
+images/uplodifyErrorLog

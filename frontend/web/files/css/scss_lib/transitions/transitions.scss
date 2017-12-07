@@ -1,0 +1,29 @@
+@mixin transition($transition){
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transition_all($time){
+  -webkit-transition: all $time ease-in-out;
+  -moz-transition: all $time ease-in-out;
+  -o-transition: all $time ease-in-out;
+  -ms-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}
+@mixin transition-property($property){
+  -webkit-transition-property: $property;  // Chrome, Opera 15+, Safari 3.1+
+  transition-property: $property;  // Firefox 16+, IE 10+, Opera
+}
+
+@mixin transition-duration($duration){
+  -webkit-transition-duration: $duration;  // Chrome, Opera 15+, Safari 3.1+
+  transition-duration: $duration;  // Firefox 16+, IE 10+, Opera
+}
+
+@mixin transition-timing-function($function){
+  -webkit-transition-timing-function: $function;  // Chrome, Opera 15+, Safari 3.1+
+  transition-timing-function: $function;  // Firefox 16+, IE 10+, Opera
+}

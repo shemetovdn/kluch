@@ -1,0 +1,284 @@
+@import "scss_lib/lib";
+
+.footer {
+  .footer-top {
+    background-color: #1b1c21;
+    padding: 66px 0;
+    @include max-screen(1199px) {
+      padding: 30px 0;
+    }
+    @include max-screen(767px) {
+      padding: 20px 0 15px;
+    }
+    .footer-logo {
+      a {
+        display: block;
+      }
+      img {
+        max-height: 187px;
+        @include max-screen(1199px) {
+          max-height: 160px;
+        }
+      }
+    }
+    .footer-buttons-row {
+      border-bottom: 1px solid #2a2b31;
+      padding-top: 10px;
+      padding-bottom: 40px;
+      @include max-screen(767px) {
+        padding-bottom: 15px;
+      }
+      button {
+        background-color: transparent;
+        border: 1px solid #2b6e8c;
+        height: 55px;
+        font-family: 'ProximaNovaRegular', sans-serif;
+        font-size: 19px;
+        line-height: 55px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        @include max-screen(767px) {
+          margin-bottom: 20px;
+        }
+      }
+      .button--isi::before {
+        background: #308fb8;
+        margin: -30px 0 0 1px;
+        width: 60px;
+        height: 60px;
+        transition: transform 0.7s, opacity 0.3s;
+      }
+    }
+    .footer-menu {
+      color: #fff;
+      padding-top: 35px;
+      a {
+        color: #fff;
+      }
+      .footer-menu-title-col {
+        a {
+          font-family: 'ProximaNovaBold', sans-serif;
+          font-size: 18px;
+          &:hover {
+            color: #308fb8;
+          }
+          @include max-screen(991px) {
+            font-size: 16px;
+          }
+          @include max-screen(767px) {
+            font-size: 15px;
+          }
+        }
+        margin-bottom: 20px;
+        @include max-screen(991px) {
+          margin-bottom: 15px;
+        }
+      }
+      ul {
+        list-style: none;
+        @include max-screen(767px) {
+          display: none;
+        }
+        li {
+          margin-bottom: 18px;
+          a {
+            color: rgba(255,255,255,0.7);
+            display: block;
+            font-family: 'ProximaNovaLight', sans-serif;
+            font-size: 18px;
+            &:hover {
+              color: #308fb8;
+            }
+            @include max-screen(991px) {
+              font-size: 16px;
+            }
+          }
+          @include max-screen(991px) {
+            margin-bottom: 13px;
+          }
+        }
+      }
+      .footer-menu-options ul li {
+        margin-bottom: 13px;
+      }
+      .footer-menu-options .footer-menu-title-col {
+        @include max-screen(991px) {
+          margin-bottom: 22px;
+        }
+        @include max-screen(767px) {
+          margin-bottom: 15px;
+        }
+      }
+      .footer-menu-main ul li {
+        @include max-screen(991px) {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+      .footer-menu-sub {
+        margin-top: 40px;
+        @include max-screen(767px) {
+          margin-top: 30px;
+        }
+        @include max-screen(767px) {
+          margin-top: 0;
+        }
+        .footer-menu-sub-item {
+          font-family: 'ProximaNovaBold', sans-serif;
+          font-size: 18px;
+          margin-bottom: 20px;
+          @include max-screen(767px) {
+            margin-bottom: 15px;
+          }
+          a {
+            &:hover {
+              color: #308fb8;
+            }
+            @include max-screen(991px) {
+              font-size: 16px;
+            }
+            @include max-screen(767px) {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+    .footer-top-col-3,
+    .footer-top-col-4 {
+      display: inline-block;
+      float: left;
+      min-height: 1px;
+      padding: 0 15px;
+    }
+    .footer-top-col-3 {
+      width: 30%;
+      @include max-screen(991px) {
+        width: 33.33%;
+      }
+      @include max-screen(767px) {
+        margin-bottom: 0;
+        width: 100%;
+      }
+    }
+    .footer-top-col-4 {
+      width: 40%;
+      @include max-screen(991px) {
+        width: 33.33%;
+      }
+      @include max-screen(767px) {
+        margin-bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+ .footer-bottom {
+   background-color: #000;
+   color: rgba(255,255,255,0.5);
+   font-size: 14px;
+   font-family: 'ProximaNovaLight', sans-serif;
+   height: 100px;
+   padding: 15px 0;
+   @include max-screen(991px) {
+     height: auto;
+     padding: 0;
+   }
+   @include max-screen(767px) {
+     padding: 15px 0 0;
+   }
+   .footer-logo {
+     padding-top: 15px;
+     @include max-screen(767px) {
+       padding-top: 0;
+     }
+   }
+   .footer-realtors-enter {
+     line-height: 70px;
+     a {
+       color: rgba(255,255,255,0.2);
+       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+       padding-bottom: 6px;
+       transition: 0.5s;
+       &:hover {
+         color: #308fb8;
+         border-bottom: 1px solid rgba(48,143,184, 0.2);
+       }
+      }
+   }
+   .footer-social {
+     padding-top: 10px;
+     a {
+       display: inline-block;
+       float: left;
+       margin-right: 20px;
+       transition: .5s;
+       &:hover {
+         margin-top: -10px;
+       }
+       img {
+         max-height: 50px;
+         max-width: 50px;
+       }
+     }
+   }
+   .footer-dev-site {
+     line-height: 70px;
+     a {
+       display: inline-block;
+       margin-left: 10px;
+       opacity: 0.2;
+       transition: 0.5s;
+       &:hover {
+         opacity: 1;
+       }
+       img {
+         max-width: 70px;
+         margin-top: -5px;
+       }
+     }
+   }
+   .footer-copyright {
+     color: rgba(255,255,255,0.2);
+     font-size: 13px;
+     transition: 0.5s;
+     @include max-screen(767px) {
+       padding-bottom: 30px;
+     }
+     &:hover {
+       color: rgba(255,255,255, 1);
+     }
+   }
+ }
+}
+.footer-bottom-logo {
+  background-color: #17181c;
+  float: left;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  @include max-screen(767px) {
+    text-align: left;
+  }
+  img {
+    max-height: 146px;
+    max-width: 80%;
+  }
+  &:before {
+    background: #17181c;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 30vw;
+  }
+}
+.footer-bottom-content {
+  float: right;
+  @include max-screen(991px) {
+    padding: 15px;
+  }
+}

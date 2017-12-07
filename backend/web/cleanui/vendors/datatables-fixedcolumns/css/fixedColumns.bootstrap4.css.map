@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACpB,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,CAAC;;AAGjB;+BACgC;EAC/B,aAAa,EAAE,eAAe;EAC9B,aAAa,EAAE,YAAY;EAC3B,gBAAgB,EAAE,KAAK;;AAGxB;+BACgC;EAC/B,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,YAAY;EAInB;;;;;;;;;;;2DAKoB;IACnB,OAAO,EAAE,IAAI;EAMd;;;yDACG;IACF,UAAU,EAAE,IAAI;;AAKnB;+BACgC;EAC/B,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,YAAY;EACxB,gBAAgB,EAAE,KAAK",
+"sources": ["fixedColumns.bootstrap.scss"],
+"names": [],
+"file": "fixedColumns.bootstrap4.css"
+}

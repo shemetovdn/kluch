@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA;qCACsC;EACrC,OAAO,EAAE,CAAC;EAEV;iDAAY;IACX,aAAa,EAAE,IAAI",
+"sources": ["fixedColumns.jqueryui.scss"],
+"names": [],
+"file": "fixedColumns.jqueryui.css"
+}

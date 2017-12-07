@@ -1,0 +1,165 @@
+.uploadifive-container{
+    width: 100%;
+    height: auto;
+    position:relative;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.imgUploaderBanner .uploadifive-container{
+    width: 270px;
+}
+.uploadifive-files{
+    /*width: 100%;*/
+    /*height: 100%;*/
+    position: relative;
+    /*display: inline;*/
+    display: block;
+    overflow: hidden;
+    order:2;
+}
+
+.UplodifyImageUploaderWithSortable {
+    display: flex;
+}
+.UplodifyImageUploaderWithSortable .uploadifive-container{
+    /*width:143px;*/
+}
+
+.uploadifive-files .image{
+    width: auto;
+    height: 123px;
+    background: #e8e8e8;
+    text-align: center;
+    line-height: 123px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.uploadifive-files .image img{
+    vertical-align: middle;
+    height: 123px;
+}
+.uploadifive-button{
+    width: 123px !important;
+    height: 123px !important;
+    position: relative;
+    display: block;
+    float: left;
+    top:0;
+    left: 0;
+    padding: 0;
+    margin: 20px 20px 0px 0;
+    background: transparent;
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    background: url("uploaderPlus.png") no-repeat center center #e8e8e8;
+}
+.uploadifive-files .image .removeImage{
+    width:16px;
+    height: 16px;
+    background: url("removeImageButton.png") no-repeat 0 0;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.uploadifive-files .image .editImage{
+    width:16px;
+    height: 16px;
+    background: url("editImageButton.png") no-repeat 0 0;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.uploadifive-files .image .info{
+    width:100%;
+    left:0;
+    bottom:0;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 1);
+    color: #ffffff;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.uploadifive-files .image .removeImage:hover{
+    background-position: 0 -16px;
+}
+.uploadifive-button:hover{
+    background: url("uploaderPlus.png") no-repeat center center #e8e8e8;
+    opacity: 0.5;
+}
+.uploadifive-button input{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.uploadifive-queue{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+.uploadifive-queue-item{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.uploadifive-queue-item .filename, .uploadifive-queue-item .fileinfo, .uploadifive-queue-item .close{
+    display: none;
+}
+.uploadifive-queue-item .progress{
+    border: 0;
+    margin: 0;
+}
+
+.uploadifive-files .imageUrlShower{
+    background: #ccc;
+    width: 165px;
+    height: 125px;
+    margin-left: 138px;
+    margin-top: 20px;
+    top: 20px;
+    font-weight: bold;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: default;
+}
+
+[id^='cropper_'] .uploadifive-button {
+    width: 118px !important;
+    height: auto !important;
+    margin-bottom: 10px!important;
+}
+[id^='cropper_'] .btn.btn-primary.pre-remove-button{
+    border-radius: 4px;
+    -webkit-border-radius:4px !important;
+    -moz-border-radius:4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}

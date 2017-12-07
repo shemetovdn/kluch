@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;;8BAE+B;EAC9B,kBAAkB,EAAE,CAAC;;AAGtB;;+BAEgC;EAC/B,iBAAiB,EAAE,CAAC;;AAGrB;+BACgC;EAC/B,aAAa,EAAE,YAAY;;AAG5B;+BACgC;EAC/B,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,YAAY;;AAGrB;+BACgC;EAC/B,UAAU,EAAE,YAAY",
+"sources": ["fixedColumns.foundation.scss"],
+"names": [],
+"file": "fixedColumns.foundation.css"
+}

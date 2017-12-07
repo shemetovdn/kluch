@@ -1,0 +1,16 @@
+.btn-actions{
+    width: 80px;
+}
+.btn-actions .btn{
+    padding: 3px 8px;
+}
+.btn-actions .btn i{
+    font-size: 0.9rem;
+}
+.table td.center,.table th.center{
+    text-align: center;
+}
+
+.top-minus .checkbox{
+    top: -13px;
+}
